@@ -1,0 +1,104 @@
+body {
+    background-color: #D6E8DB;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5D737E;
+}
+
+.nav li { 
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #87BBA2;
+}
+
+
+
+.questions li {
+    font-size: 125%;
+}
+
+input[type="radio"] {
+    margin: 10px 50px;
+}
+
+.a1 {
+    margin-left: 20px;
+    transform: scale(3);
+}
+
+.a3 {
+    transform: scale(1.5);
+}
+
+.a2, .a4 {
+    transform: scale(2);
+}
+
+.a5 {
+    margin-right: 20px;
+    transform: scale(3);
+}
+
+.answers {
+    text-align: center;
+}
+
+.questions li {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+button[type="button"]{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+#getresults {
+    text-align: center;
+    margin-top: 75px;
+    background-color: #FFF07C;
+    padding: 50px;
+    border-radius: 75px;
+}
+#getresults a {
+    text-decoration: none;
+    font-size: 150%;
+    color: black;
+}
+
+#getresults a:hover {
+    background-color: #D7D17D;
+
+}
+
+h2 {
+    background-color: #FFF07C;
+    display: inline-block;
+    padding: 50px;
+    color: black;
+    border-radius: 75px;
+    border: 2px solid black
+}
+h2:hover {
+    background-color: #D7D17D;
+}

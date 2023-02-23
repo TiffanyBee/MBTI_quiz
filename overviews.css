@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D6E8DB;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5D737E;
+}
+
+.nav li { 
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #87BBA2;
+}
+
+
+.nav #current {
+    border: 2px solid black;
+}
+
+
+
+.mbti img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#analysists{
+    width: auto;
+    height: auto;
+    background-color: #CBC3E3;
+    overflow: auto;
+    margin: 0 auto;
+    display: table;
+}
+
+#diplomats{
+    width: auto;
+    height: auto;
+    background-color: #D0F0C0;
+    overflow: auto;
+    margin: 0 auto;
+    display: table;
+}
+
+#sentenials {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    overflow: auto;
+    margin: 0 auto;
+    display: table;
+    background-color: #ADD8E6;
+}
+
+#explorers {
+    width: auto;
+    height: auto;
+    background-color: #FFF197;
+    overflow: auto;
+    margin: 0 auto;
+    display: table;
+}
+
+.mbti {
+    padding: 50px;
+    margin: auto;
+    float: left;
+    
+}

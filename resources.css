@@ -1,0 +1,67 @@
+body {
+    background-color: #D6E8DB;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5D737E;
+}
+
+.nav li { 
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #87BBA2;
+}
+
+.nav #current {
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;   
+}
+
+.explanation {
+    float: left;
+    width: 48%;
+    margin: 5px;
+    height: 400px;
+}
+
+.quiz {
+    float: left;
+    width: 48%;
+    margin: 5px;
+    height: 400px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.credits {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: table;
+}
+
